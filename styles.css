@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap');
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#id-container {
+    background-color: blue;
+    width: 20%;
+    flex-direction: column;
+    height: 100%;
+}
+
+#id-container img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+ 
+}
+
+#standup-container {
+    background-color: #a52a2a;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}               
+
+#standup-container img {
+    width: 400px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;     
+}
+
+#log-out {
+    background-color: green;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
