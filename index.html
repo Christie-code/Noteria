@@ -7,48 +7,79 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
-            <div id="id-container">
-                <img  src="images/african-woman 1.png" alt="employee profile picture">
+        <div id="id-container">
+            <div id="profile-container">
+                <img  src="images/pppp.png" alt="employee profile picture">
                 <div>
-                    <p>Christie</p>
-                    <p>Engineering</p>
+                    <h3>Christiana Olaoye</h3>
+                    <p>Web Developer</p>
+                    <p>NOTERIA-122341RR1</p>
                 </div>
             </div>
-            <div>
-                <img src="#" alt="plus">
-                <input type="button" value="New Note"> 
+            <div id="new-note">
+                <img src="images/plus.png" alt="plus">
+                <p>New Note</p>
             </div>
-            <div>
+            <div id="standup-lists">
+                <p id="loner">Saved Standups</p>
                 <ul>
                     <li>
-                        <img src="#" alt="bullet">
+                        <img class="small" src="images/bullet.png" alt="bullet">
                         <p>22nd July, 2020</p>
-                        <img src="images/trash-can 2.png">
+                        <img class="tiny" src="images/trash-can.png">
                     </li>
                     <li>
-                        <img src="#" alt="bullet">
+                        <img class="small" src="images/bullet.png" alt="bullet">
                         <p>21st July, 2020</p>
-                        <img src="images/trash-can 2.png">
+                        <img class="tiny" src="images/trash-can.png">
                     </li>
                     <li>
-                        <img src="#" alt="bullet">
+                        <img  class="small" src="images/bullet.png" alt="bullet">
                         <p>20th July, 2020</p>
-                        <img src="images/trash-can 2.png">
+                        <img class="tiny" src="images/trash-can.png">
                     </li>
                     <li>
-                        <img src="#" alt="bullet">
+                        <img class="small" src="images/bullet.png" alt="bullet">
                         <p>19th July, 2020</p>
-                        <img src="images/trash-can 2.png">
+                        <img class="tiny" src="images/trash-can.png">
                     </li>
                     
                 </ul>
             </div>    
         </div>
         <div id="standup-container">
+            <p>Logout</p>
             <img src="images/Noteria.png" alt="profile image">
-            <input type="submit" value="Log Out">
+            <div>
+                <img src="images/Noteria.png" alt="profile image">
+                <h6>Create a new Standup</h6>
+                <div>
+                    <p>What did you achieve yesterday?</p>
+                    <input type="text" placeholder="What did you do yesterday">
+                </div>
+                <div>
+                    <p>What do you hope to achieve today?</p>
+                    <input type="text" placeholder="What do you hope to achieve today">
+                </div>
+                <div>
+                    <p>Do you have any blockers?</p>
+                    <input type="text" placeholder="Do you have any blockers">
+                </div>
+                <input type="button" value="Save Standup">
+            </div>
+            <div>
+                <img src="images/Noteria.png" alt="profile image">
+                <div>
+                    <img src="images/trash-can 2.png">
+                    <div>
+                        <h6>Stand up deleted!</h6>
+                        <input type="button" value="OK">
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        
        
     </body>
     <script src="script.js"></script>
