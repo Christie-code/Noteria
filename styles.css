@@ -125,7 +125,15 @@ li {
     height: auto;
 }
 
-.hide {
+#center-picture.hide {
+    display: none;
+}
+
+#standup-card.hide {
+    display: none;
+}
+
+#delete-card.hide {
     display: none;
 }
 #standup-container h5 {
@@ -133,7 +141,7 @@ li {
     font-size: 1em;
 }
 
-.standup-card {
+#standup-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 70%;
     height: auto;
@@ -144,7 +152,7 @@ li {
     flex-direction: column;
 }
 
-.standup-card img {
+#standup-card img {
     height: 40px;
     width: auto;
 }
@@ -212,7 +220,7 @@ h6 {
     justify-content: flex-end;
 }
 
-.delete-card {
+#delete-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 70%;
     height: auto;
@@ -223,7 +231,7 @@ h6 {
     flex-direction: column;
 }
 
-.delete-card img {
+#delete-card img {
     height: 40px;
     width: auto;
 }

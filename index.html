@@ -9,20 +9,20 @@
     <body>
         <div id="id-container">
             <div id="profile-container">
-                <img  src="images/african-woman 1.png" alt="employee profile picture">
+                <img  src="images/african-woman 1.png " alt="employee profile picture">
                 <div>
-                    <h3>Christiana Olaoye</h3>
-                    <p>Web Developer</p>
-                    <p>NOTERIA-122341RR1</p>
+                    <h3 id="name">Christiana Olaoye</h3>
+                    <p id="department">Software Engineering</p>
+                    <p id="employee-id">NOTERIA-122341RR1</p>
                 </div>
             </div>
-            <div id="new-note">
+            <div id="new-note"> 
                 <img src="images/plus.png" alt="plus">
                 <p>New Note</p>
             </div>
             <div id="standup-lists">
                 <p id="loner">Saved Standups</p>
-                <ul>
+                <ul id="standuplist-container">
                     <li>
                         <img class="small" src="images/bullet.png" alt="bullet">
                         <p>22nd July, 2020</p>
@@ -50,8 +50,8 @@
         <div id="standup-container">
             <h5>Logout</h5>
             <div id="center-logo"  >
-                <img id="center-picture" class="hide" src="images/Noteria.png" alt="profile image">
-                <div class="hide">
+                <img id="center-picture" src="images/Noteria.png" alt="profile image">
+                <div id="standup-card">
                     <img src="images/Noteria.png" alt="profile image">
                     <h6>Create a new Standup</h6>
                     <div class="form-input">
@@ -78,17 +78,17 @@
                             <input type="text" placeholder="Do you have any blockers?">
                         </div>
                     </div>
-                    <div class= "save-standup ">
-                        <input type="button" value="Save Standup">
+                    <div class= "save-standup">
+                        <input id="save-button" type="button" value="Save Standup">
                     </div>
                 </div>
-                <div class="delete-card">
+                <div id="delete-card">
                     <img src="images/Noteria.png" alt="profile image">
                     <div id="trash-container">
                         <img id="delete-image" src="images/black-trash.png">
                         <div id="complete-standup">
                             <h4>Stand up deleted!</h4>
-                            <input type="button" value="OK">
+                            <input id="delete-button" type="button" value="OK">
                         </div>
                     </div>
                 </div>
