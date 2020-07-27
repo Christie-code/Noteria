@@ -50,16 +50,17 @@
         <div id="standup-container">
             <h5>Logout</h5>
             <div id="center-logo"  >
-                <img id="center-picture" src="images/Noteria.png" alt="profile image">
-                <div id="standup-card">
+                <img id="center-picture" class="show"
+                src="images/Noteria.png" alt="profile image">
+                <div id="standup-card" class="hide">
                     <img src="images\/Noteria.png" alt="profile image">
-                    <h6>Create a new Standup</h6>
+                    <h4>Create a new Standup</h4>
                     <div class="form-input">
                         <div class="label">
                             <p>What did you achieve yesterday?</p>
                         </div>
                         <div class="content">
-                            <input type="text" placeholder="What did you do yesterday?">
+                            <input id="yesterday" type="text" placeholder="What did you do yesterday?">
                         </div>
                     </div>
                     <div class="form-input">
@@ -67,7 +68,7 @@
                             <p>What do you intend to achieve today?</p>
                         </div>
                         <div class="content">
-                            <input type="text" placeholder="What do you intend to achieve today?">
+                            <input id="today" type="text" placeholder="What do you intend to achieve today?">
                         </div>
                     </div>
                     <div class="form-input">
@@ -75,23 +76,19 @@
                             <p>Do you have any blockers?</p>
                         </div>
                         <div class="content">
-                            <input type="text" placeholder="Do you have any blockers?">
+                            <input id="blockers" type="text" placeholder="Do you have any blockers?">
                         </div>
                     </div>
                     <div class= "save-standup">
                         <input id="save-button" type="button" value="Save Standup">
                     </div>
                 </div>
-<<<<<<< HEAD
-                <div id="delete-card">
-=======
-                <div class="hide">
->>>>>>> f0a84daf27ba0ee5f9ce5d2a6e731c1d68f4ccdf
+                <div id="delete-card" class="hide">
                     <img src="images/Noteria.png" alt="profile image">
                     <div id="trash-container">
                         <img id="delete-image" src="images/black-trash.png">
                         <div id="complete-standup">
-                            <h4>Stand up deleted!</h4>
+                            <h4>Do you want to delete standup?</h4>
                             <input id="delete-button" type="button" value="OK">
                         </div>
                     </div>

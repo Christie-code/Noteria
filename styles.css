@@ -125,17 +125,14 @@ li {
     height: auto;
 }
 
-#center-picture.hide {
+.hide {
     display: none;
 }
 
-#standup-card.hide {
-    display: none;
+.show {
+    display: flex;
 }
 
-#delete-card.hide {
-    display: none;
-}
 #standup-container h5 {
     text-align: end;
     font-size: 1em;
@@ -148,7 +145,6 @@ li {
     padding: 20px;
     border-radius: 15px;
     align-items: center;
-    display: flex;
     flex-direction: column;
 }
 
@@ -157,7 +153,7 @@ li {
     width: auto;
 }
 
-h6 {
+#standup-card h4 {
     width: 100%;
     margin-top: 0.5em;
 }
@@ -227,7 +223,6 @@ h6 {
     padding: 20px;
     border-radius: 15px;
     align-items: center;
-    display: flex;
     flex-direction: column;
 }
 
